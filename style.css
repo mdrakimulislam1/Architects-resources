@@ -85,6 +85,63 @@ padding: 10px 50px 30px 50px;
 
 }
 
+/* Start main section */
+
+.features-container{
+margin-top: 30px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+}
+
+.features-photo{
+
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 10px;
+
+}
+
+.features-titel{
+
+margin-bottom: 20px;
+
+}
+
+.features-dis{
+margin-bottom: 20px;
+width: 33.5rem;
+
+
+}
+
+
+.span-1{
+
+    font-size: 2.5rem;
+    font-weight: 500;
+
+}
+
+.span-2{
+
+font-size: 2.5rem;
+font-weight: 700;
+
+}
+
+.span-3{
+
+    font-size: 2.5rem;
+font-weight: 700;
+color: #FF900E;
+
+}
+
+
+
 
 
 
