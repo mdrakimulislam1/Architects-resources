@@ -1,0 +1,182 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Work Sans', sans-serif;
+
+}
+
+.hading{
+ background-color: rgba(238, 188, 130, 0.289);
+ height:auto;
+}
+
+.nav-container{
+padding: 50px 240px 0 128px;
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.nav-menu ul{
+display: flex;
+gap: 10px;
+list-style: none;
+}
+
+.nav-title{
+
+    font-size: 2.81rem;
+}
+
+a{
+font-size: 1.2rem;
+
+}
+
+/* this is banner section */
+.banner-contain{
+
+text-align: center;
+margin-bottom: 30px;
+width: 862px;
+margin: auto;
+}
+.banner-titel{
+
+font-size: 4rem;
+margin-bottom: 15px;
+margin-top: 100px;
+
+}
+.banner-des{
+
+margin-bottom: 15px;
+
+
+}
+
+.btn-primary{
+    color: #FFF;
+    font-size: 20px;
+    border-radius: 8px;
+    background: #FF900E;
+    border: none;
+    padding: 10px 20px ;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+
+
+.pic{
+width: 90%;
+}
+.banner-photo{
+text-align: center;
+padding: 10px 50px 30px 50px;
+
+
+}
+
+
+
+
+
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 700px) {
+    
+.hading{
+align-items: center;
+margin: 0;
+padding: 0;
+}
+
+.nav-container{
+padding: 50px ;
+flex-direction: column;
+}
+
+.nav-title{
+margin-bottom: 20px;
+
+}
+
+.banner-contain{
+
+    width: 50%;
+}
+
+
+.banner-titel{
+ 
+    width: 100%;
+margin: 0;
+
+    font-size: 3.2rem;
+    text-align: center;
+  
+}
+
+.banner-photo{
+text-align: center;
+padding:0;
+margin: auto;
+
+}
+
+}
+
+
+/* RESPONSIVE 2 */
+
+@media screen and (min-width: 700px) and ( max-width: 1200px){
+
+    .hading{
+        align-items: center;
+       margin: auto;
+
+        }
+        
+        .banner-contain{
+
+            width: 50%;
+        }
+        
+        .nav-container{
+            padding: 50px ;
+            flex-direction: column;
+            }
+
+            .banner-titel{
+ 
+                width: 100%;
+            margin: 0;
+            
+                font-size: 4rem;
+                text-align: center;
+              
+            }
+            
+            .nav-title{
+                margin-bottom: 20px;
+                
+                }
+
+
+
+    
+}
+
+
+
+
+
